@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea tu Cuenta</title>
+    <link rel="stylesheet" href="assets/css/registro.css">
+</head>
+
+<body>
+    <div class="formu">
+        <h2>Crea tu cuenta</h2>
+        <form id="registerForm">
+            <label for="nombre">Nombres:</label>
+            <input type="text" id="nombre"><br>
+            <label for="apellido">Apellidos:</label>
+            <input type="text" id="apellido"><br>
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha"><br>
+            <button type="button" onclick="generarCorreo()">Generar Correo Electrónico</button><br>
+            <label for="correoGenerado">Correo Generado:</label>
+            <input type="text" id="correoGenerado" readonly><br>
+            <button> <a href="iniciar_secion.html">Inicia sesión</a></button>
+        </form>
+    </div>
+    <script src="java/registro.js"></script>
+</body>
+
+</html>
